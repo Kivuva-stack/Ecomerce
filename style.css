@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+
+.Nav{
+    width: 99%;
+    padding: 15px 10px;
+    background-color: rgb(3, 3, 3);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    color: white;
+}
+.logo{
+    font-weight: bold;
+    font-size: 27px;
+    color: rgb(255, 253, 253);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  
+}
+.bar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.bar li a{
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 16px;
+}
+.bar li a:hover{
+    font-size: 20px;
+    border-bottom: solid rgb(248, 248, 248);
+}
+.contact{
+    padding: 9px 9px ;
+    border-radius: 40px;
+    color: black;
+    font-size: 15px;
+    background-color: aliceblue;
+
+}
+.contact a{
+    color: black;
+}
+.home{
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    background-color: white;
+    
+    
+}
+.home h2{
+    font-size: 200px;
+    justify-items: center;
+    
+    font-weight: bold;
+    color: rgb(184, 181, 181);
+    opacity: 0.2;
+}
+.home h3{
+    font-size: 200px;
+    justify-items: center;
+    
+    font-weight: bold;
+    color: rgb(184, 181, 181);
+    margin-top: 10px;
+    opacity: 0.1;
+}
+.home img{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+  display: flex;
+  right: 20px;
+  top: 200px;
+  height: 65vh;
+  
+}
+.home h4{
+   
+    font-size: 25px;
+    font-weight: 700;
+}
+.home h5{
+    
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.home p{
+    
+    font-size: 20px;
+    color: black ;
+}
+.cars{
+    float: left;
+    width: 400px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    
+}
+.vintage img{
+    width: 400;
+    height: 600;
+}
+.desc{
+    padding: 10px ;
+    text-align: center;
+}
+.desc h4{
+    font-size: 20px;
+}
+.desc p{
+    font-size: 17px;
+}
+.details{
+    padding: 30px;
+    background-color: rgb(224, 211, 211);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    
+}
+.details p{
+    margin: 23px;
+    font-size: 16px;
+    text-align: left;
+}
+.disc h2{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.disc li{
+    list-style: none;
+    margin: 10px;
+    
+
+}
+.details button{
+    padding:10px 5px;
+    border-radius: 20px;
+}
